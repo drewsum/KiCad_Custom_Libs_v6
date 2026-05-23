@@ -63567,18 +63567,18 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -7.62 10.16 0)
+			(at 14.986 16.256 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "LM2907"
-			(at -7.62 8.89 0)
+			(at -15.24 16.51 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -63589,7 +63589,7 @@
 			)
 		)
 		(property "Footprint" "Package_DIP:DIP-8_W7.62mm"
-			(at 0 0 0)
+			(at 1.016 1.016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -63600,7 +63600,7 @@
 			)
 		)
 		(property "Datasheet" "https://www.ti.com/lit/ds/symlink/lm2917-n.pdf"
-			(at 0 0 0)
+			(at 1.016 1.016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -63611,7 +63611,7 @@
 			)
 		)
 		(property "Description" "LM2917 Frequency to Voltage Converter, 8-Pin"
-			(at 0 0 0)
+			(at 1.016 1.016 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -63623,8 +63623,8 @@
 		)
 		(symbol "LM2907_0_1"
 			(rectangle
-				(start -7.62 8.89)
-				(end 7.62 -10.16)
+				(start -15.24 15.24)
+				(end 15.24 -15.24)
 				(stroke
 					(width 0.254)
 					(type default)
@@ -63636,9 +63636,9 @@
 		)
 		(symbol "LM2907_1_1"
 			(pin input line
-				(at -12.7 7.62 0)
+				(at -20.32 0 0)
 				(length 5.08)
-				(name "IN+"
+				(name "TACH+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63654,9 +63654,9 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 5.08 0)
+				(at -3.81 -20.32 90)
 				(length 5.08)
-				(name "C1A"
+				(name "CP1"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63672,9 +63672,9 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 2.54 0)
+				(at 3.81 -20.32 90)
 				(length 5.08)
-				(name "C1B"
+				(name "CP2/IN+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63690,9 +63690,9 @@
 				)
 			)
 			(pin passive line
-				(at -12.7 0 0)
+				(at 20.32 0 180)
 				(length 5.08)
-				(name "R1/C2"
+				(name "EMIT"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63708,9 +63708,9 @@
 				)
 			)
 			(pin output line
-				(at 12.7 7.62 180)
+				(at -20.32 10.16 0)
 				(length 5.08)
-				(name "OUT"
+				(name "COL"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63726,9 +63726,9 @@
 				)
 			)
 			(pin power_in line
-				(at 12.7 5.08 180)
+				(at -20.32 12.7 0)
 				(length 5.08)
-				(name "VCC"
+				(name "V+"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63743,10 +63743,10 @@
 					)
 				)
 			)
-			(pin power_in line
-				(at 12.7 2.54 180)
+			(pin passive line
+				(at 20.32 -2.54 180)
 				(length 5.08)
-				(name "GND"
+				(name "IN-"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -63761,10 +63761,10 @@
 					)
 				)
 			)
-			(pin output line
-				(at 12.7 0 180)
+			(pin power_in line
+				(at -20.32 -12.7 0)
 				(length 5.08)
-				(name "E"
+				(name "GND"
 					(effects
 						(font
 							(size 1.27 1.27)
@@ -99798,18 +99798,18 @@
 		(in_pos_files yes)
 		(duplicate_pin_numbers_are_jumpers no)
 		(property "Reference" "U"
-			(at -15.24 22.86 0)
+			(at 14.478 22.86 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
 				(font
 					(size 1.27 1.27)
 				)
-				(justify left)
+				(justify right)
 			)
 		)
 		(property "Value" "PIC18F16Q41"
-			(at -15.24 21.59 0)
+			(at -14.986 23.114 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(effects
@@ -99819,8 +99819,8 @@
 				(justify left)
 			)
 		)
-		(property "Footprint" "Package_DFN_QFN:VQFN-20-1EP_4x4mm_P0.65mm_EP2.5x2.5mm"
-			(at 0 0 0)
+		(property "Footprint" "Package_DFN_QFN:VQFN-20-1EP_3x3mm_P0.4mm_EP1.7x1.7mm"
+			(at -0.254 -0.762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -99831,7 +99831,7 @@
 			)
 		)
 		(property "Datasheet" "https://ww1.microchip.com/downloads/aemDocuments/documents/MCU08/ProductDocuments/DataSheets/PIC18F06-16Q41-Microcontroller-Data-Sheet-DS40002308.pdf"
-			(at 0 0 0)
+			(at -0.254 -0.762 0)
 			(show_name no)
 			(do_not_autoplace no)
 			(hide yes)
@@ -99842,6 +99842,17 @@
 			)
 		)
 		(property "Description" "8-bit PIC18 MCU, 64MHz, 64KB Flash, 4KB RAM, 20-Pin VQFN"
+			(at -0.254 -0.762 0)
+			(show_name no)
+			(do_not_autoplace no)
+			(hide yes)
+			(effects
+				(font
+					(size 1.27 1.27)
+				)
+			)
+		)
+		(property "ki_keywords" "8-bit PIC18 MCU, 64MHz, 64KB Flash, 4KB RAM, 20-Pin VQFN"
 			(at 0 0 0)
 			(show_name no)
 			(do_not_autoplace no)
@@ -99867,7 +99878,7 @@
 		)
 		(symbol "PIC18F16Q41_1_1"
 			(pin power_in line
-				(at -20.32 20.32 0)
+				(at -20.32 19.05 0)
 				(length 5.08)
 				(name "VDD"
 					(effects
@@ -99885,7 +99896,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 17.78 0)
+				(at -20.32 -5.08 0)
 				(length 5.08)
 				(name "RA5"
 					(effects
@@ -99903,7 +99914,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 15.24 0)
+				(at -20.32 -2.54 0)
 				(length 5.08)
 				(name "RA4"
 					(effects
@@ -99921,7 +99932,7 @@
 				)
 			)
 			(pin input line
-				(at -20.32 12.7 0)
+				(at -20.32 0 0)
 				(length 5.08)
 				(name "~{MCLR}/RA3"
 					(effects
@@ -99939,7 +99950,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 10.16 0)
+				(at 20.32 -15.24 180)
 				(length 5.08)
 				(name "RC5"
 					(effects
@@ -99957,7 +99968,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 7.62 0)
+				(at 20.32 -12.7 180)
 				(length 5.08)
 				(name "RC4"
 					(effects
@@ -99975,7 +99986,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 5.08 0)
+				(at 20.32 -10.16 180)
 				(length 5.08)
 				(name "RC3"
 					(effects
@@ -99993,7 +100004,7 @@
 				)
 			)
 			(pin power_in line
-				(at -20.32 2.54 0)
+				(at -20.32 -20.32 0)
 				(length 5.08)
 				(name "VSS"
 					(effects
@@ -100011,7 +100022,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 0 0)
+				(at 20.32 -7.62 180)
 				(length 5.08)
 				(name "RC2"
 					(effects
@@ -100029,7 +100040,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 -2.54 0)
+				(at 20.32 -5.08 180)
 				(length 5.08)
 				(name "RC1"
 					(effects
@@ -100047,7 +100058,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 -5.08 0)
+				(at 20.32 -2.54 180)
 				(length 5.08)
 				(name "RC0"
 					(effects
@@ -100065,7 +100076,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 -7.62 0)
+				(at -20.32 2.54 0)
 				(length 5.08)
 				(name "RA2"
 					(effects
@@ -100083,7 +100094,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 -10.16 0)
+				(at -20.32 5.08 0)
 				(length 5.08)
 				(name "RA1"
 					(effects
@@ -100101,7 +100112,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at -20.32 -12.7 0)
+				(at -20.32 7.62 0)
 				(length 5.08)
 				(name "RA0"
 					(effects
@@ -100119,7 +100130,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 20.32 180)
+				(at 20.32 19.05 180)
 				(length 5.08)
 				(name "RB4"
 					(effects
@@ -100137,7 +100148,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 17.78 180)
+				(at 20.32 16.51 180)
 				(length 5.08)
 				(name "RB5"
 					(effects
@@ -100155,7 +100166,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 15.24 180)
+				(at 20.32 13.97 180)
 				(length 5.08)
 				(name "RB6"
 					(effects
@@ -100173,7 +100184,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 12.7 180)
+				(at 20.32 11.43 180)
 				(length 5.08)
 				(name "RB7"
 					(effects
@@ -100191,7 +100202,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 10.16 180)
+				(at 20.32 -20.32 180)
 				(length 5.08)
 				(name "RC7"
 					(effects
@@ -100209,7 +100220,7 @@
 				)
 			)
 			(pin bidirectional line
-				(at 20.32 7.62 180)
+				(at 20.32 -17.78 180)
 				(length 5.08)
 				(name "RC6"
 					(effects
@@ -100227,7 +100238,7 @@
 				)
 			)
 			(pin power_in line
-				(at 20.32 5.08 180)
+				(at -20.32 -17.78 0)
 				(length 5.08)
 				(name "EP"
 					(effects
